@@ -4,9 +4,9 @@ Framework makes use of RestAssured API for performing webservice operation and C
 ## Can be Run Locally on Window/Linux/Mac
 Prerequisite : Java ,Maven should be installed .
 
-- git clone  or download Zip
-- cd 
-- Run Java executable Jar by command "java -jar studentmgmt-0.0.1-SNAPSHOT.jar"
+- git clone https://github.com/pawankalra2/Students-API-RestAssured-Cucumber.git or download Zip
+- cd Students-API-RestAssured-Cucumber
+- Run Java executable Jar by command "java -jar studentmgmt-0.0.1-SNAPSHOT.jar" to run API .(Pre requisite)
 - mvn clean install 
 The above command will download all dependencies and run all the tests based on cucumber tags present in runner->runCucumberTest (ex @SmokeTest)
 - Set of test with similar feature tags can be run using the maven command "mvn test verify -Dcucumber.options="--tags @SmokeTest"
@@ -42,5 +42,11 @@ StudenTest.feature - Automated scenarios include complete END to END flow of Stu
 
 Below find cucumber-html-report of the test Run
 Also present in "cucumber-html-reports.zip"
+
+![image](https://user-images.githubusercontent.com/44734956/168651337-a91c70ba-512f-41f7-bbed-c176fbe57182.png)
+
+![image](https://user-images.githubusercontent.com/44734956/168651245-20c40b5a-493e-47c2-a3b9-086e9ea0393b.png)
+
+![image](https://user-images.githubusercontent.com/44734956/168651499-8b28622e-41dd-4a66-976a-0eb386e023c5.png)
 
 
